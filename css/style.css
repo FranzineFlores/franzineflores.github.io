@@ -1,0 +1,81 @@
+body {
+	background-color: white;
+}
+
+a	{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.navigation-bar > a {
+	display: inline;
+    margin-right: 110px;
+	margin-left: 155px;
+	height: 20px;
+    line-height: 5px;
+	font-family: Arial;
+	color: black;
+	padding: 20;
+	text-decoration: none;
+	font-size: 15px;
+}
+.navigation-bar > a:hover{
+	color: gray;
+}
+.mySlides {
+	line-height: 550px;
+	padding: 16px;
+	height: 40vh ;
+	width: 201vh;
+	border: 2px solid white;
+}
+b {
+	line-height: 200px;
+	margin-left: 335px;
+	font-family: Arial;
+	text-align: center;
+}
+div.gallery {
+	display: inline;
+	padding-top: 48px;
+	float: left;
+	width: 180px;
+}
+
+div.gallery img {
+	display: inline;
+	width: 270px;
+	height: 270px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  margin: 100px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+}
+.grid-container > div:hover {
+	color: blue;
+}
+.cop {
+	font-family: Arial;
+	size: 10;
+	text-align: center;
+}
+.footer {
+	padding: 20px;
+	background: black;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	width: 98%;
+	height: 50%;
+}
